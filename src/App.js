@@ -1,17 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import { AppProvider } from './context/AppContext';
 import Navigation from './components/layout/Navigation';
 import Header from './components/layout/Header';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-// import Skills from './pages/Skills';
 import Games from './pages/Games';
-// import LoadingSpinner from './components/common/LoadingSpinner';
-// import ErrorMessage from './components/common/ErrorMessage';
-// import { useAppContext } from './context/AppContext';
-// import { DataProvider } from './context/DataContext';
 
 const AppContent = () => {
   return (
@@ -25,7 +19,6 @@ const AppContent = () => {
           <Route path="/games" element={<Games />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/assets/*" />
-          {/* <Route path="/skills" element={<Skills />} /> */}
         </Routes>
       </main>
     </div>
@@ -34,13 +27,9 @@ const AppContent = () => {
 
 function App() {
   return (
-    // <AppProvider>
-    //   <DataProvider>
         <Router>
           <AppContent />
         </Router>
-    //   </DataProvider>
-    // </AppProvider>
   );
 }
 
