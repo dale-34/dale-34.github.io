@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dale-34/dale-34.github.io/static/css/main.66e6c88f.css",
+    "main.js": "/dale-34/dale-34.github.io/static/js/main.2de7f682.js",
+    "static/js/488.b0c2fbb2.chunk.js": "/dale-34/dale-34.github.io/static/js/488.b0c2fbb2.chunk.js",
+    "index.html": "/dale-34/dale-34.github.io/index.html",
+    "main.66e6c88f.css.map": "/dale-34/dale-34.github.io/static/css/main.66e6c88f.css.map",
+    "main.2de7f682.js.map": "/dale-34/dale-34.github.io/static/js/main.2de7f682.js.map",
+    "488.b0c2fbb2.chunk.js.map": "/dale-34/dale-34.github.io/static/js/488.b0c2fbb2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66e6c88f.css",
+    "static/js/main.2de7f682.js"
+  ]
+}
