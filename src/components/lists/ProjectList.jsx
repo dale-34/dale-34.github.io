@@ -32,17 +32,7 @@ const projects = [
     title: 'Userspace Filesystem',
     description: `Developed a library that reads and writes to WAD files, creating a directory and file structure for them.
     Implements userspace daemon to access the mounted directory structure.`,
-    demoLink: 'https://demo2.com',
-    githubLink: 'https://github.com/user/project2',
-    tags: ['C++', 'WAD']
-  },
-  {
-    id: 3,
-    title: 'Userspace Filesystem',
-    description: `Developed a library that reads and writes to WAD files, creating a directory and file structure for them.
-    Implements userspace daemon to access the mounted directory structure.`,
-    demoLink: 'https://demo2.com',
-    githubLink: 'https://github.com/user/project2',
+    githubLink: 'https://github.com/dale-34/User-Space-File-System.git',
     tags: ['C++', 'WAD']
   },
   {

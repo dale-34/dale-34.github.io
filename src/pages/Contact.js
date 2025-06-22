@@ -6,7 +6,7 @@ const Contact = () => {
       <h2 className="text-2xl font-bold mb-4"> Contact Me</h2>
         <h3 className="text-text-secondary mb-4">
             <a href="mailto:dalenanguyen2003@gmail.com">Email</a> |  
-            <a href="https://www.linkedin.com/in/dalena-nguyen2003/"> LinkedIn</a> |
+            <a href="www.linkedin.com/in/dalena-nguyen34"> LinkedIn</a> |
             <a href="https://github.com/dale-34"> GitHub</a>
         </h3>
     </div>

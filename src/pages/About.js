@@ -3,46 +3,45 @@ import Skills from './Skills';
 // import { Link } from 'react-router-dom';
 
 const About = () => {
-  // const pdfFiles = [
-  //   { name: 'Dalena_Nguyen_Transcript.pdf', label: 'Unofficial-Transcript', lastUpdated: '2024-12-25', group: 'transcript', href: 'https://github.com/dale-34/PersonalWebsite/blob/main/Resume.pdf'},
-  //   { name: 'Dalena_Nguyen_Resume.pdf', label: 'Resume', lastUpdated: '2024-10-07', group: 'other' },
-  // ];
+  const pdfFiles = [
+    { name: 'Dalena_Nguyen_Transcript.pdf', label: 'Unofficial-Transcript', lastUpdated: '12-16-24', group: 'transcript', href: 'https://github.com/dale-34/PersonalWebsite/blob/main/Resume.pdf'},
+    { name: 'Dalena_Nguyen_Resume.pdf', label: 'Resume', lastUpdated: '11-04-2024', group: 'other' },
+  ];
 
 
-  // const renderPdfGroup = (group) => (
-  //   <div className="flex flex-col">
-  //     <h3 className="font-semibold mb-2">{group === 'transcript' ? 'Transcripts' : 'Professional'}</h3>
-  //     {pdfFiles
-  //       .filter(pdf => pdf.group === group)
-  //       .map(pdf => {
-  //         const staticUrl = `https://aidanandrews22.github.io/content/pdf/${pdf.name}`;
-  //         return (
-  //           <div key={pdf.name} className="mb-2">
-  //             <a
-  //               href={staticUrl}
-  //               target="_blank"
-  //               rel="noopener noreferrer"
-  //               className="text-primary"
-  //             >
-  //               {pdf.label}
-  //             </a>
-  //             <span className="text-xs text-gray-500">
-  //               &#160; Last updated: {pdf.lastUpdated}
-  //             </span>
-  //           </div>
-  //         );
-  //       })}
-  //   </div>
-  // );
+  const renderPdfGroup = (group) => (
+    <div className="flex flex-col">
+      <h3 className="font-semibold mb-2">{group === 'transcript' ? 'Transcripts' : 'Resume'}</h3>
+      {pdfFiles
+        .filter(pdf => pdf.group === group)
+        .map(pdf => {
+          const staticUrl = `https://github.com/dale-34/dale-34.github.io/tree/gh-pages/assets/${pdf.name}`;
+          return (
+            <div key={pdf.name} className="mb-2">
+              <a
+                href={staticUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary"
+              >
+                {pdf.label}
+              </a>
+              <span className="text-xs text-gray-500">
+                &#160; Last updated: {pdf.lastUpdated}
+              </span>
+            </div>
+          );
+        })}
+    </div>
+  );
 
   return (
     <div className="max-w-3xl mx-auto">
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <p className="text-text-secondary mb-4">
-            I am student studying Computer Science with a minor in Digital Arts
-            and Sciences at the University of Florida. My interests include
-            Software Engineering, Full Stack Development, and the intersection
+            With a Bachelors of Science in Computer Science from the University of Florida, 
+            my interests include Software Engineering, Full Stack Development, and the intersection
             between digital media and programming. Outside of my career I enjoy
             playing tennis, reading, video games, art, and picking up niche
             hobbies!
@@ -52,12 +51,8 @@ const About = () => {
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">Documents</h2>
         <div className="flex justify-between">
-          <a href="https://github.com/dale-34/PersonalWebsite/blob/main/Resume.pdf">
-            Resume
-          </a>
-          
-          {/* {renderPdfGroup('transcript')}
-          {renderPdfGroup('other')} */}
+          {renderPdfGroup('transcript')}
+          {renderPdfGroup('other')}
         </div>
       </section>
 
