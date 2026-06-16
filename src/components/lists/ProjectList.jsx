@@ -21,6 +21,14 @@ const ProjectCard = ({ id, title, description, demoLink, githubLink, tags }) => 
 const projects = [
   {
     id: 1,
+    title: 'Iter',
+    description: `Utilizing OpenAI API, created a web application that allowed users to easily create travel plans but generating a custom itinerary.`,
+    demoLink: 'https://youtu.be/u30ffkEzyao',
+    githubLink: 'https://github.com/dale-34/Iter',
+    tags: ['React', 'JavaScript', 'AI', 'GoogleAPI', 'OpenAI']
+  },
+  {
+    id: 2,
     title: 'Memory Manager',
     description: `Developed a memory manager with features include initializing, tracking, allocating, and deallocating sections of memory. 
     Avoids external/internal fragmentation and allows for efficient memory allocation`,
@@ -28,7 +36,7 @@ const projects = [
     tags: ['C++', 'Operating Systems']
   },
   {
-    id: 2,
+    id: 3,
     title: 'Userspace Filesystem',
     description: `Developed a library that reads and writes to WAD files, creating a directory and file structure for them.
     Implements userspace daemon to access the mounted directory structure.`,

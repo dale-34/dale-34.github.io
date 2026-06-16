@@ -60,7 +60,7 @@ const About = () => {
         <h2 className="text-2xl font-bold mb-4">Experience</h2>
         <div className="mb-6">
           <h3 className="text-xl font-semibold">United States Air Force Civilian Services</h3>
-          <h4 className="text-lg">ull Stack Developer Intern (T.S Clearance)</h4>
+          <h4 className="text-lg">Full Stack Developer Intern (T.S Clearance)</h4>
           <p className="text-sm text-text-secondary">May 2024 - August 2024</p>
           <p className="mt-2">
             I assisted in developing microservice-based solutions for serial
@@ -78,7 +78,7 @@ const About = () => {
         <h2 className="text-2xl font-bold mb-4">Extracurriculars</h2>
         <div>
           <h3 className="text-xl font-semibold">Society of Women Engineers (SWE)</h3>
-          <p className="text-sm text-text-secondary">August 2023 - Present</p>
+          <p className="text-sm text-text-secondary">August 2023 - May 2025</p>
           <p className="mt-2">
             As one of the team leads on a STEAM project, my team and I developed
             an interactive exhibit using Arduino Nano technology. The exhibit
@@ -90,7 +90,7 @@ const About = () => {
         </div>
         <div>
           <h3 className="text-xl font-semibold">Women in Computer Science Club (WiCSE)</h3>
-          <p className="text-sm text-text-secondary">August 2022 - Present</p>
+          <p className="text-sm text-text-secondary">August 2022 - May 2025</p>
           <p className="mt-2">
             As an active member of WiCSE I am advently involved with the events,
             workshops, and opportunities that WiCSE offers. As part of a
